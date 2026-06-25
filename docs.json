@@ -1,0 +1,62 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "willow",
+  "name": "Continuum Lands",
+  "colors": {
+    "primary": "#6464f4"
+  },
+  "favicon": "https://media.brand.dev/103dd816-f5be-41e5-b5fa-deb02587f1a5.svg",
+  "logo": {
+    "light": "https://media.brand.dev/690cb766-cd88-4b61-8ce9-2aed21c20660.svg",
+    "dark": "https://media.brand.dev/690cb766-cd88-4b61-8ce9-2aed21c20660.svg"
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Solicita tu análisis",
+      "href": "https://lands.continuumai.app/#solicitar"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guía",
+        "groups": [
+          {
+            "group": "Introducción",
+            "pages": [
+              "introduction",
+              "how-it-works"
+            ]
+          },
+          {
+            "group": "Soluciones",
+            "pages": [
+              "solutions/dictamenes",
+              "solutions/analisis-financiero",
+              "solutions/proyecciones",
+              "solutions/renderings",
+              "solutions/estudios-de-mercado"
+            ]
+          },
+          {
+            "group": "Tu Análisis",
+            "pages": [
+              "analysis/requesting",
+              "analysis/report-contents",
+              "analysis/variables"
+            ]
+          },
+          {
+            "group": "Ayuda",
+            "pages": [
+              "faq",
+              "legal/privacy",
+              "legal/terms"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
