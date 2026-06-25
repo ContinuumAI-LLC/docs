@@ -1,0 +1,102 @@
+/* ── Satoshi font via Fontshare ───────────────────────────── */
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&display=swap');
+
+/* ── Design tokens ────────────────────────────────────────── */
+:root {
+  /* Border radius — brandbook px scale */
+  --radius-xs:  4px;
+  --radius-sm:  8px;
+  --radius-md:  12px;
+  --radius-lg:  16px;
+  --radius-xl:  22px;
+  /* Smooth radii — reserved for imagery (deliberate contrast to crisp UI geometry) */
+  --radius-2xl: 30px;
+  --radius-3xl: 40px;
+  --radius-4xl: 52px;
+}
+
+/* ── Typography — Satoshi everywhere ─────────────────────── */
+body,
+.prose,
+[class*="font-"],
+h1, h2, h3, h4, h5, h6,
+p, li, a, button, input, select, textarea {
+  font-family: 'Satoshi', system-ui, sans-serif !important;
+}
+
+/* ── Cards ── var(--radius-lg) ────────────────────────────── */
+[class*="card"],
+[class*="Card"],
+.group\/card {
+  border-radius: var(--radius-lg) !important;
+}
+
+/* ── Code blocks ── var(--radius-md) ─────────────────────── */
+pre,
+[class*="codeBlock"],
+[class*="CodeBlock"] {
+  border-radius: var(--radius-md) !important;
+}
+
+/* ── Inline code ── var(--radius-xs) ─────────────────────── */
+code:not(pre code) {
+  border-radius: var(--radius-xs) !important;
+}
+
+/* ── Callout / Note / Warning ── var(--radius-md) ────────── */
+[class*="callout"],
+[class*="Callout"],
+[class*="note"],
+[class*="Note"],
+[class*="warning"],
+[class*="Warning"] {
+  border-radius: var(--radius-md) !important;
+}
+
+/* ── Buttons / CTA ── var(--radius-sm) ───────────────────── */
+button,
+a[role="button"],
+[class*="Button"],
+[class*="btn"] {
+  border-radius: var(--radius-sm) !important;
+}
+
+/* ── Navbar primary button ── var(--radius-sm) ───────────── */
+nav button,
+nav a[class*="button"],
+header button {
+  border-radius: var(--radius-sm) !important;
+}
+
+/* ── Search input ── var(--radius-sm) ────────────────────── */
+input[type="search"],
+[class*="search"] input,
+[role="combobox"] {
+  border-radius: var(--radius-sm) !important;
+}
+
+/* ── Tabs / Pills ── var(--radius-xs) ────────────────────── */
+[role="tab"],
+[class*="tab"],
+[class*="Tab"] {
+  border-radius: var(--radius-xs) !important;
+}
+
+/* ── Badge / Tag ── var(--radius-xs) ─────────────────────── */
+[class*="badge"],
+[class*="Badge"],
+[class*="tag"],
+[class*="Tag"] {
+  border-radius: var(--radius-xs) !important;
+}
+
+/* ── Images ── var(--radius-2xl) — smooth, deliberate ────── */
+img:not([class*="icon"]):not([class*="logo"]):not([class*="favicon"]) {
+  border-radius: var(--radius-2xl) !important;
+}
+
+/* ── Sidebar ── var(--radius-xs) on active item ──────────── */
+[class*="sidebarItem"][aria-current="page"],
+[class*="sidebar"] a[aria-current="page"] {
+  border-radius: var(--radius-xs) !important;
+}
