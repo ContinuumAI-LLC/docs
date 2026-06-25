@@ -21,12 +21,21 @@
     }
   },
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Solicita tu análisis",
+          "href": "https://lands.continuumai.app/#solicitar",
+          "icon": "arrow-up-right"
+        }
+      ]
+    },
     "tabs": [
       {
-        "tab": "Guía",
+        "tab": "Documentación",
         "groups": [
           {
-            "group": "Introducción",
+            "group": "La Plataforma",
             "pages": [
               "introduction",
               "how-it-works"
@@ -43,7 +52,7 @@
             ]
           },
           {
-            "group": "Tu Análisis",
+            "group": "Análisis",
             "pages": [
               "analysis/requesting",
               "analysis/report-contents",
@@ -51,9 +60,14 @@
             ]
           },
           {
-            "group": "Ayuda",
+            "group": "Soporte",
             "pages": [
-              "faq",
+              "faq"
+            ]
+          },
+          {
+            "group": "Legal",
+            "pages": [
               "legal/privacy",
               "legal/terms"
             ]
