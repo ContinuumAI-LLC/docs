@@ -4,7 +4,13 @@
   "name": "Continuum Lands",
   "css": "/custom.css",
   "colors": {
-    "primary": "#6464f4"
+    "primary": "#6366f1",
+    "light": "#6366f1",
+    "dark": "#7577f3",
+    "background": {
+      "light": "#fafaf9",
+      "dark": "#0d0e0c"
+    }
   },
   "favicon": "https://media.brand.dev/103dd816-f5be-41e5-b5fa-deb02587f1a5.svg",
   "logo": {
